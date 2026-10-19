@@ -1,0 +1,149 @@
+body{
+    background: #000;
+}
+.container{
+    width:100%;
+    height:900px;
+    border:1px solid black;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   margin:100px auto;
+
+  
+}
+.img1 i{
+    position: absolute;
+    top:290px;
+   right:800px;
+    font-size: 40px;
+    border:1px solid greenyellow;
+    border-radius: 125px;
+    width:50px;
+    height:50px;
+    
+}
+h1,h2{
+    color:aliceblue
+}
+.box{
+    margin:50px auto;
+     width:500px;
+    height:800px;
+     background-color: black;
+     border:1px solid greenyellow;
+     box-shadow: 2  4 4 orange;
+}
+.img1{
+     width:450px;
+    height:500px;
+  
+     margin:10px auto;
+   
+}
+.box img,.box1 .img2{
+      width:450px;
+    height:500px;
+    
+    object-fit: cover;
+    
+
+}
+.box h1,.box1 h1 {
+    text-align: center;
+    margin: 0px;
+    color:aliceblue;
+}
+.box p,.box1 p{
+     margin: 0px;
+    text-align: center;
+    color:grey;
+}
+button{
+    border:1px solid rgb(237, 236, 236);
+    border-radius: 25px;
+      width:200px;
+    height:40px;
+    color:brown;
+}
+/*box ends*/
+.box1{
+   width:450px;
+    height:650px;
+    object-fit: cover;
+    border:1px solid;
+    margin: 30px auto;
+      border:1px solid rgb(218, 83, 83);
+        background-color: black;
+      
+     
+      
+}
+.box1 .img2{
+       width:300px;
+    height:400px;
+    margin: 30px auto;
+    border:1px solid rgb(182, 61, 61);
+    border-radius: 10px;
+
+}
+.img2 img{
+   
+   width:300px;
+    height:400px;
+    object-fit: cover;
+}
+.box:hover{
+   transform: scale(1.2);
+}
+
+.box1:hover{
+    transform:skewY(30deg);
+    
+}
+
+/*ends*/
+
+        .card {
+              width:450px;
+            height:650px;
+              margin: 30px auto;
+            
+            perspective: 1000px;
+        }
+
+ 
+.card-inner {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transition: transform 0.8s ease;
+            transform-style: preserve-3d;
+        }
+
+        .card:hover .card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .front,
+        .back {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            backface-visibility: hidden;
+        }
+
+        .front {
+            background: orange;
+            color: white;
+        }
+
+        .back {
+            background: purple;
+            color: white;
+            transform: rotateY(180deg);
+        }
+

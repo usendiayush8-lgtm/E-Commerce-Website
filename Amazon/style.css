@@ -1,0 +1,445 @@
+*
+{
+    margin: 0px;
+    
+}
+body{
+    background-color: #0a0202;
+}
+
+header{
+    position:sticky;
+    top:0;
+    border:1px solid rgb(22, 4, 4);
+    height:70px;
+    width:2025px;
+    background-color: rgb(19, 2, 2);
+    display: flex;
+    
+   
+}
+.header2{
+    position:sticky;
+    top:69px;
+
+     width:2025px;
+     height:45px;
+      background-color: grey;
+}
+
+nav{
+    position:sticky;
+    margin-top: 10px;
+    top:0;
+
+}
+a{
+    
+     text-decoration: none;
+    color:#f8f5f5;
+    font-size: 20px;
+  
+    padding:10px;
+}
+a:hover{
+   
+ border:1px solid white;
+ 
+
+    
+}
+
+img{
+     border:1px solid rgb(8, 1, 1);
+       border:none;
+       
+       margin-top: 4px;
+    width:200px;
+    height: 65px;;
+}
+h1{
+    font-size: 15px;
+    margin-right: 45px;
+   
+}
+button{
+    border:none;
+    color:aliceblue;
+    font-size: 20px;
+   
+    background: #000;
+    margin-top: 5px;
+    margin-left: 5px;
+     width:200px;
+    height: 65px;;
+}
+
+
+input{
+    margin-top: 20px;
+    font-size: 20px;
+    
+     width:1050px;
+     height:30px;
+   
+}
+
+select{
+   
+    background: gray;
+     font-size: 20;
+    border-radius:10px;
+    width:50px;
+    margin-top: 20px;
+    height:45px;
+  
+
+}
+
+.button1{
+    background-color: rgb(4, 13, 21);
+    margin-top: 20px;
+    
+    width:50px;
+    height:45px;
+}
+.En{
+    margin-top: 10px;
+    border:1px solid rgb(17, 2, 2);
+    width:100px;
+   background: rgb(7, 0, 0);
+    height:60px;
+}
+span{
+  
+    color:rgb(243, 238, 238);
+}
+
+.En1{
+    margin-top: 10px;
+    border:1px solid rgb(17, 2, 2);
+    width:150px;
+   background: rgb(7, 0, 0);
+    height:60px;
+ 
+}
+
+.icon{
+    background-color: rgb(255, 247, 0);
+    margin-top: 20px;
+    border-radius: 2px;
+    
+     width:40px;
+    height: 43px;
+    font-size: 32px;
+
+}
+
+fieldset{
+    border:1px solid black;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQB5hJ86WTB-ddbn9b1IrU2_Ka5TPXDXL9aRG1WUypCw&s=10);
+   background-repeat: no-repeat;
+  background-size:2025px 756px;
+  background-blend-mode:exclusion;
+  
+    width:2000px;
+    height: 740px;
+}
+
+.nam1{
+    margin-top:0px;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 50px;
+
+}
+.nam2{
+      font-size: 25px;
+       margin-left: 200px;
+}
+.container{
+    display:flex;
+    gap:40px;
+}
+.container2{
+    display:flex;
+    gap:10px;
+}
+
+.container4{
+    display:flex;
+    gap:10px;
+}
+
+
+
+ /* first cards deatils */
+
+.card1{
+   
+     border:2px solid rgb(239, 234, 234);
+     background:white;
+       border-radius: 10px;
+   margin-left: 200px;
+      width:400px;
+    height: 400px;
+    margin:0px;
+}
+.par1{
+  
+    margin-top: 30px;
+    width:355px;
+    font-size: 25px;
+       height: 50px;
+     margin-left: 20px;
+  color:rgb(2, 2, 15);
+}
+.incard1,.incard2{
+   
+     border:2px solid #efebeb;
+     border-radius: 10px;
+     background-color: rgb(241, 243, 242);
+ 
+      width:310px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+  
+  margin-top: 20px;
+}
+
+.img2,.img3{
+    width:151px;
+    height:200px;
+    margin:0px;
+}
+.par2{
+   background-color: white;
+   color:blue;
+   font-size: 20px;
+    
+}
+
+/* FIRST CARDS DETAILS END */
+
+/* SECOND CARDS DETAILS START*/
+
+.container3{
+    display:flex;
+    gap:10px;
+}
+.par3{
+  
+    margin-top: 20px;
+    
+    font-size: 25px;
+     
+     margin-left: 20px;
+  color:rgb(2, 2, 15);
+}
+.incard3,.incard4{
+   
+     border:2px solid rgb(250, 247, 247);
+  margin-left: 20px;
+      width:160px;
+    height: 250px;
+   
+}
+
+
+.img4,.img5{
+    width:160px;
+    height:250px;
+    margin:0px;
+}
+.par4{
+   background-color: white;
+   color:blue;
+   margin-top: 20px;
+   font-size: 20px;
+    
+}
+/* SECOND CARDS DETAILS END */
+
+/* THIRD CARDS DETAILS START */
+
+
+.box1{
+     display: flex;
+    border:2px solid white;
+     margin-top: 20px;
+      margin-left: 20px;
+     width:350px;
+    height: 130px;   
+}
+
+.box2{
+    display: flex;
+    border:2px solid  white;
+     border-radius: 20px;
+       margin-left: 20px;
+     width:350px;
+    height: 130px;
+
+}
+
+.incard5,.incard6{
+   
+     border:2px solid white;
+   
+     margin-left: 10px;
+      width:160px;
+     height: 100px;
+   
+}
+
+.img5{
+    
+     width:160px;
+     height: 100px;
+}
+
+
+/* THIRD CARDS DETAILS END */
+
+/* FOURTH CARDS DETAILS END */
+
+
+.incard7{
+     border:1px solid black;
+     border-radius: 10px;
+     background:white;
+     margin-left: 20px;
+     width:550px;
+    height: 150px;
+    
+
+}
+.incard8{
+     border:1px solid black;
+      border-radius: 15px;
+     margin-left: 20px;
+     background:white;
+     width:550px;
+    height: 232px;
+   
+
+}
+.span1{
+    color:rgb(238, 132, 11);
+    
+    margin-left: 20px;
+    font-size: 30px;
+
+}
+.par10{
+    color:#000;
+     font-size: 26px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.par11{
+    color:blue;
+      margin-left: 20px;
+     font-size: 20px;
+}
+.combine{
+    border:1px solid white;
+    border-radius: 15px;
+     width:540px;
+    height: 230px;
+    display: flex;
+}
+
+.amazon{
+     border:1px solid white;
+       width:550px;
+        border-radius: 15px;
+         width:270px;
+    height: 228px;
+}
+.amazon1{
+    border:1px solid white;
+    border-radius: 15px;
+    width:240px;
+     height:190px;
+   
+}
+.amazonimg{
+     margin-top: 20px;
+     margin-left: 0px;
+    width:250px;
+    height:190px;
+
+}
+
+
+.par9{
+    margin-left: 15px;
+    font-size: 40px;
+    color:#000;
+}
+
+.button1{
+    background-color: yellow;
+    color:#000;
+    border-radius: 30px;
+   margin-left: 40px;
+ width:450px;
+    height: 60px
+}
+
+
+
+
+.card2{
+     border:1px solid black;
+     background:whitesmoke;
+     width:1940px;
+    height:150px;
+    margin-top: 40px;
+    margin-left: 10px;
+    display:flex;
+    border-radius: 10px;
+  
+   
+}
+
+.p1{
+    font-size: 30px;
+    color:#000;
+}
+
+
+.pho,.pho1,.pho2,.pho3,.pho4,.pho5,.pho6,.pho7,.pho8,.pho9{
+    border:1px solid white;
+      width:100px;
+    height:100px;
+    border-radius: 125px;
+     margin-top: 20px;
+    margin-left: 20px;
+   
+}
+.img6,.img7,.img8,.img9,.img10,.img11,.img12,.img13,.img14,.img15{
+    border:1px solid white;
+    width:100px;
+    height:100px;
+    margin-top: 0px;
+    border-radius: 125px;
+   
+}
+.par5{
+      margin-left: 20px;
+    color:black;
+}
+
+
+button:hover{
+    border:1px solid white;
+}
+img:hover{
+    border:1px solid white;
+}
+
+
+

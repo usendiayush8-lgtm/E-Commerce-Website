@@ -1,0 +1,93 @@
+fieldset{
+    widht:300px;
+     height:800px;
+     display: flex;
+     background-color: black;
+}
+h1{
+    color:white;
+}
+h2{
+    font-size: 75;
+
+}
+.sun{
+    border:1px solid;
+    border-radius: 50%;
+   margin-top: 10%;
+    width:400px;
+    height:400px;
+  background: radial-gradient( #f64f01, #eba00a,red);
+}
+.mercury{
+    border:1px solid;
+    border-radius: 50%;
+margin-top: 17%;
+margin-left: 20px;
+    width:150px;
+    height:150px;
+     background: linear-gradient(00deg, #7d2902, #dc6a40,rgba(97, 4, 4, 0.736));
+}
+.venus{
+    border:1px solid;
+    border-radius: 50%;
+margin-top: 16%;
+margin-left: 20px;
+    width:170px;
+    height:170px;
+      background: linear-gradient( orange ,red,yellow,red,orange);
+}
+.earth{
+    border:1px solid;
+    border-radius: 50%;
+margin-top: 15%;
+margin-left: 20px;
+    width: 200px;
+    height:200px;
+    background: linear-gradient(blue,green,blue);
+}
+.mars{
+    border:1px solid;
+    border-radius: 50%;
+margin-top: 15%;
+margin-left: 20px;
+    width:120px;
+    height:120px;
+    background: linear-gradient(brown, rgb(235, 179, 89),brown);
+}
+.jupitar{
+    border:1px solid;
+    border-radius: 50%;
+margin-top: 15%;
+margin-left: 20px;
+    width:200px;
+    height:200px;
+    background: linear-gradient(red, rgb(233, 183, 183),brown);
+}
+.saturn{
+    border:1px solid;
+    border-radius: 50%;
+margin-top: 15%;
+margin-left: 20px;
+    width:150px;
+    height:150px;
+    background: linear-gradient(rgb(165, 138, 42), rgb(124, 128, 88),rgb(174, 166, 166));
+}
+.uranus{
+    border:1px solid;
+    border-radius: 50%;
+margin-top: 15%;
+margin-left: 20px;
+    width:170px;
+    height:170px;
+    background: linear-gradient(rgb(12, 171, 228), rgb(70, 130, 755),rgb(12, 171, 228));
+}
+.neptune{
+    border:1px solid;
+    border-radius: 50%;
+margin-top: 15%;
+margin-left: 20px;
+    width:170px;
+    height:170px;
+    background: linear-gradient(rgb(12, 171, 228), rgb(3, 3, 170),rgb(12, 171, 228));
+}

@@ -1,0 +1,136 @@
+ *{
+        background:#EAF7F6;
+    }
+
+    .layout1{
+        
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:30px;
+    padding:30px;
+    justify-items:center;
+    }
+     .layout2{
+        
+    display:grid;
+    grid-template-columns:repeat(3, 1fr); 
+    gap:30px;
+    padding:30px;
+    justify-items:center;
+    }
+
+    span{
+       
+        font-size: 100px;
+       
+    }
+
+    div{
+        width:500px;
+        height:600px;
+        
+        margin-left: 8%;
+    
+    }
+
+   
+    .cards{
+        border:5px solid ;
+        border-radius:50px;
+        
+        margin-top: 100px;
+    }
+    .cards img{
+         width:200px;
+        height:200px;
+        margin:auto;
+        margin-left: 32%;
+        border-radius: 100px;
+
+    }
+
+
+    h1{
+        font-size:50px;
+        text-align: center;
+        border-radius: 20px;
+         width:200px;
+          margin-left: 150px;
+   
+    }
+    p{
+        background-color:#eff1f0;
+        margin-left: 20px;
+        font-size: 29px;
+    }
+
+    #lion,#Tiger,#Cheetah,#Giraffe,#Zebra,#Elephant
+    
+    {
+        color:rgb(252, 250, 250);
+        background-color:#1e5e3a;
+    }
+   
+
+    button{
+        margin-left: 160px;
+        width:150px;
+        height:40px;
+        background: #1e5e3a;
+        color:rgb(232, 234, 233);
+        border-radius: 20px;
+        font-size: 20px ;
+    }
+    
+    .lion{
+        background:#C8F2E0;
+        
+    }
+
+    .lion p{
+         background:#C8F2E0;
+    }
+
+    .Tiger{
+        background-color: #FFF3C7;
+    }
+
+    .Tiger p{
+        background-color: #FFF3C7;
+    }
+
+    .Cheetah{
+        background-color: #DDEBFF;
+
+    }
+
+    .Cheetah p{
+        background-color: #DDEBFF;
+
+    }
+    .Elephant{
+        background:#E8E2FF;
+    }
+
+    .Elephant p{
+        background:#E8E2FF;
+    }
+    .Giraffe{
+        background:#FFE4E4;
+    }
+    .Giraffe p{
+        background:#FFE4E4;
+    }
+.Zebra{
+    background: #E0F8F8;
+}
+.Zebra p{ 
+    background: #E0F8F8;
+}
+
+.cards:hover{
+    transform:translateY(-50px);
+}
+
+    
+    

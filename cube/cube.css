@@ -1,0 +1,118 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+
+.container{
+       border:1px solid black;
+    width:100%;
+    height:1200px;
+    position: relative;
+   perspective: 4000px;
+   background:radial-gradient(rgb(24, 57, 37) ,rgb(15, 17, 16) ,rgb(6, 4, 4));
+   
+}
+.cube img{
+     width:250px;
+    height:250px;
+    position: absolute;
+     
+    object-fit: cover;
+}
+
+.cube{
+    border:1px solid black;
+    width:250px;
+    height:250px;
+  
+  margin:400px auto;
+  position: relative;
+  
+  transform-style: preserve-3d;
+      animation: cube 5s linear 1s infinite; 
+
+}
+.faces{
+      border:5px solid black;
+    width:250px;
+    height:250px;
+    text-align: center;
+    place-items: center;
+    position: absolute;
+    
+
+}
+#front{
+    background-color:rgba(250, 247, 247, 0.5);
+   
+    transform: translateZ(150px);
+}
+#back{
+    background-color: rgba(251, 248, 248, 0.5);
+    transform: translateZ(-150px);
+}
+#right{
+    background-color: rgba(251, 247, 247, 0.5);
+    transform: translateX(150px)rotateY(90deg);
+}
+#left{
+    background-color:rgba(253, 251, 251, 0.5);
+    transform: translateX(-150px)rotateY(-90deg);
+}
+#top{
+    background-color: rgba(254, 254, 254, 0.5);
+    transform:translateY(-150px)rotateX(90deg)
+}
+#bottom{
+   background-color: rgba(246, 243, 243, 0.5);
+    transform:translateY(150px)rotateX(-90deg)
+}
+@keyframes cube {
+    from{
+        transform: rotateX(0deg) rotateY(0deg) ;
+    }
+    to{
+        transform: rotateY(360deg) rotateX(360deg);
+    }    
+}
+
+.coin{    
+    width:150px;
+    height:150px;
+    position: absolute;
+    top:450px;
+    left:920px;
+    transform: translateY(-450px);
+    
+    transition: 7s ease-in-out 0s;
+    
+}
+.coin1{
+       border:1px solid black;
+       border-radius: 50%;   
+         width:150px;
+        height:150px;
+         
+         background-color: rgb(68, 92, 74); 
+         animation: coin 0.5s ease-in-out infinite normal;
+ 
+}
+.photo{
+      border-radius: 50%;   
+         width:150px;
+        height:150px;
+        object-fit: cover;
+
+}
+@keyframes coin{
+    from{
+        transform: rotateX(90deg) translateY(0px);
+    }
+    to{
+        transform:translateY(-450px) rotateX(90deg);
+    }
+
+}
+
+

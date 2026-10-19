@@ -1,0 +1,91 @@
+fieldset{
+    border:1px solid whitesmoke;
+    margin:100px 400px 100px 700px;
+     border-color: whitesmoke;
+    width:600px;
+    height: 300px;
+    background-color: white;
+  
+}
+
+
+h1{
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    
+}
+
+div{
+      border:1px solid orange;
+  background-color: orange;
+    width:600px;
+    height: 100px;
+}
+
+.middle{
+     border:1px solid #f8f4ef;
+      width:600px;
+    height: 100px;
+ background-color: whitesmoke;
+}
+
+.bottom{
+     border:1px solid green;
+      width:600px;
+    height: 100px;
+ background-color: green;
+}
+
+.chakkra{
+    margin-left: 240px;
+    border-radius: 125px;
+   border-color: blue;
+    width:100px;
+    height: 100px;
+    background-color: rgb(239, 239, 244);
+    border: 3px solid rgb(4, 4, 4);
+     
+            
+}
+ 
+
+        /* 24 spokes */
+        .spoke {
+            position: absolute;
+            width: 4px;
+            height: 50px;
+            background: #0606eb;
+
+            left: 50.4%;
+            top: 38.2%;
+           
+
+            transform-origin: 50% 100%;
+        }
+
+        .s1  { transform: translate(-50%, -100%) rotate(0deg); }
+        .s2  { transform: translate(-50%, -100%) rotate(15deg); }
+        .s3  { transform: translate(-50%, -100%) rotate(30deg); }
+        .s4  { transform: translate(-50%, -100%) rotate(45deg); }
+        .s5  { transform: translate(-50%, -100%) rotate(60deg); }
+        .s6  { transform: translate(-50%, -100%) rotate(75deg); }
+        .s7  { transform: translate(-50%, -100%) rotate(90deg); }
+        .s8  { transform: translate(-50%, -100%) rotate(105deg); }
+        .s9  { transform: translate(-50%, -100%) rotate(120deg); }
+        .s10 { transform: translate(-50%, -100%) rotate(135deg); }
+        .s11 { transform: translate(-50%, -100%) rotate(150deg); }
+        .s12 { transform: translate(-50%, -100%) rotate(165deg); }
+        .s13 { transform: translate(-50%, -100%) rotate(180deg); }
+        .s14 { transform: translate(-50%, -100%) rotate(195deg); }
+        .s15 { transform: translate(-50%, -100%) rotate(210deg); }
+        .s16 { transform: translate(-50%, -100%) rotate(225deg); }
+        .s17 { transform: translate(-50%, -100%) rotate(240deg); }
+        .s18 { transform: translate(-50%, -100%) rotate(255deg); }
+        .s19 { transform: translate(-50%, -100%) rotate(270deg); }
+        .s20 { transform: translate(-50%, -100%) rotate(285deg); }
+        .s21 { transform: translate(-50%, -100%) rotate(300deg); }
+        .s22 { transform: translate(-50%, -100%) rotate(315deg); }
+        .s23 { transform: translate(-50%, -100%) rotate(330deg); }
+        .s24 { transform: translate(-50%, -100%) rotate(345deg); }
+        

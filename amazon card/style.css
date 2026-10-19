@@ -1,0 +1,125 @@
+*
+{
+    margin: 0px;
+}
+
+body{background:rgb(246, 211, 211);}
+
+header{
+    border:1px solid black;
+    height:80px;
+    background-color: black;
+    display: flex;
+   
+}
+
+
+img{
+     border:1px solid rgb(8, 1, 1);
+       border:none;
+       margin-top: 4px;
+    width:200px;
+    height: 65px;;
+}
+h1{
+    font-size: 15px;
+    margin-right: 45px;
+   
+}
+button{
+    border:none;
+    color:aliceblue;
+    font-size: 20px;
+   
+    background: #000;
+    margin-top: 5px;
+    margin-left: 5px;
+     width:200px;
+    height: 65px;;
+}
+
+
+input{
+    margin-top: 20px;
+    font-size: 20px;
+
+     width:1050px;
+     height:30px;
+   
+}
+
+select{
+   
+    background: gray;
+     font-size: 20;
+    border-radius:10px;
+    width:50px;
+    margin-top: 20px;
+    height:45px;
+  
+
+}
+div{
+
+    margin-left: 200px;
+    background-color: white;
+ border:1px solid rgba(251, 248, 248, 0.95);
+ margin:200px 500px 100px 400px;
+   display: flex;
+    width:1200px;
+    height:300px;
+     border-radius: 10px;
+
+}
+
+.heart {
+     margin-top: 30px;
+    font-size: 35px;
+    color: #090202;
+    cursor: pointer;
+
+}
+
+.image2{
+    border:1px solid rgb(8, 1, 1);
+       border:none;
+     
+    width:500px;
+    height: 290px;
+   
+}
+.text{
+    margin-top: 120px;
+    font-size: 30px;
+    color:blue;
+     margin-left: 50px;
+}
+
+h2{
+    
+    font-size: 40px;
+     margin-top: 90px;
+}
+.button1{
+    font-size: 10px;
+    background-color: red;
+    border-radius: 4px;
+      width:40px;
+      height:25px
+}
+span{
+  
+    font-size: 15px;
+    align-items: center;
+}
+
+
+
+image:hover{
+  
+    border:1px solid white;
+}
+button:hover{
+  
+    border:1px solid white;
+}

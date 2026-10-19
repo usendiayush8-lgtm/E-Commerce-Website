@@ -1,0 +1,70 @@
+
+body{
+
+    background-image: url(https://i.pinimg.com/1200x/ef/8e/59/ef8e590cfae22c5fc555621b7ef9e2be.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+} 
+
+img{
+    width:140px;
+    height:140px;
+    position: absolute;
+   top:850px;
+   left:520px;
+    animation: mario 1s linear 0s infinite;
+}
+
+.box{
+    border: 1px solid;
+    background-image: url(./image/Vintage-Mario-Bro.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width:80px;
+    height:80px;
+    position: absolute;
+   top:670px;
+   left:550px;
+  
+}
+@keyframes mario{
+    from{
+        transform:translateY(-100px)
+    }
+}
+
+.coin{
+    border: 1px solid red;
+    border-radius: 125px;
+    background-color: yellow;
+      width:70px;
+    height:70px;
+     position: absolute;
+   top:675px;
+   left:555px;
+    animation: coin 1s linear 0s  infinite;
+}
+
+@keyframes coin{
+    0%{
+       transform: translateY(0px) rotateX(0deg);
+       opacity: 100;
+    }
+     25%{
+       transform: translateY(-100px) rotateX(90deg);
+        opacity: 50;
+    }
+      50%{
+       transform: translateY(-200px) rotateX(180deg);
+        opacity: 20;
+    }
+    75%{
+        transform: translateY(-300px) rotateX(270deg);
+        opacity: 5;
+    }
+     100%{
+        transform: translateY(-400px) rotateX(360deg);
+        opacity: 0; 
+    }
+}
